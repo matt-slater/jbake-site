@@ -6,9 +6,18 @@
     <atom:link href="http://jbake.org/feed.xml" rel="self" type="application/rss+xml" />
     <description>Matt Slater's Blog</description>
     <language>en-gb</language>
-    <pubDate>Sun, 10 Apr 2016 22:24:09 -0400</pubDate>
-    <lastBuildDate>Sun, 10 Apr 2016 22:24:09 -0400</lastBuildDate>
+    <pubDate>Thu, 14 Apr 2016 12:21:30 -0400</pubDate>
+    <lastBuildDate>Thu, 14 Apr 2016 12:21:30 -0400</lastBuildDate>
 
+    <item>
+      <title>The Cloud Native Journey Part 1</title>
+      <link>http://jbake.org/blog/2016/cloud-journey-1.html</link>
+      <pubDate>Fri, 1 Apr 2016 00:00:00 -0400</pubDate>
+      <guid isPermaLink="false">blog/2016/cloud-journey-1.html</guid>
+      	<description>
+	&lt;p&gt;There&apos;s been a lot of buzz recently about &quot;the cloud&quot; and &quot;cloud-native applications.&quot; What exactly do we mean when we talk about these apps? Do they live in the sky somewhere? The answer is &lt;em&gt;of course not&lt;/em&gt;. Let me explain.&lt;/p&gt;&lt;p&gt;The way we develop software is going through some pretty radical changes. Software architecture is moving away from risky monolithic application structure and starting to move toward a decentralized distributed systems-type model. This distributed model consists of smaller applications or &lt;em&gt;microservices&lt;/em&gt; that work together to solve the same problems or execute the same business logic that the outdated monolith solved.&lt;/p&gt;&lt;p&gt;The question then, is why introduce the complexity that comes with distributed systems? The advantage lies in the fact that each microservice is isolated, in effect, from the rest of the system, and that potentially radical changes to the service will not bring the entire system to a grinding halt. By trading off for a little complexity, we are able to gain &lt;em&gt;resiliency&lt;/em&gt;. When we put one small team of developers in charge of the entire lifecyle of the service, we gain &lt;em&gt;agility&lt;/em&gt;. The software can be put in to production much more quickly. When these services are deployed in a cloud environment (think any PaaS product Google App Engine, Cloud Foundry etc.), they gain &lt;em&gt;scalability&lt;/em&gt;. Too many requests overwheling your service? &quot;Spin up&quot; some more instances on the platform.&lt;/p&gt;
+	</description>
+    </item>
     <item>
       <title>Hello, World or &quot;Laissez la folie commencer&quot;</title>
       <link>http://jbake.org/blog/2016/hello-world.html</link>
