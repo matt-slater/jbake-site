@@ -1,8 +1,9 @@
-title=Hello, World or "Laissez la folie commencer"
+title=Hello, World.
 date=2016-04-01
 type=post
 tags=blog
 status=published
+summary=Hello, World
 ~~~~~~
 
 This is it.
@@ -15,5 +16,3 @@ I'll be writing about the things I learn.
 
 Are you ready?
 I am.
-
--M

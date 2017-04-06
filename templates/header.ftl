@@ -13,9 +13,11 @@
     <!-- <link href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>css/bootstrap.min.css" rel="stylesheet"> -->
     <link href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>css/styles.css" rel="stylesheet">
     <link href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>css/asciidoctor.css" rel="stylesheet">
+    <link href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>css/styles/googlecode.css" rel="stylesheet">
     <!-- <link href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>css/base.css" rel="stylesheet">
     <link href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>css/prettify.css" rel="stylesheet"> -->
-
+    <script src="<#if (content.rootpath)??>${content.rootpath}<#else></#if>js/highlight/highlight.pack.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
 
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
@@ -30,7 +32,7 @@
     <link rel="shortcut icon" href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>favicon.ico">
   </head>
   <body>
-    
+
 
       <div id="left"></div>
    <div id="right"></div>
